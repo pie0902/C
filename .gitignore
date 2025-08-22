@@ -1,0 +1,27 @@
+# 빌드 결과물 (실행파일, 오브젝트 파일 등)
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+
+# macOS 디버그 심볼 폴더
+*.dSYM/
+
+# 실행 파일 (확장자 없는 경우도 무시)
+src/*
+!src/*.c
+!src/*.h
+
+# 빌드 디렉토리
+/build/
+
+# 임시 파일
+*.log
+*.tmp
+
+# 에디터/IDE 설정
+.vscode/
+.idea/
+.DS_Store

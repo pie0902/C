@@ -5,6 +5,8 @@
 *.a
 *.so
 *.dll
+*.elf
+a.out
 
 # macOS 디버그 심볼 폴더
 *.dSYM/
@@ -25,3 +27,21 @@ src/*
 .vscode/
 .idea/
 .DS_Store
+
+# gdb
+.gdb_history
+.gdbinit
+
+# vim/emacs
+*~
+*#
+tags
+
+# CMake / autotools
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+configure
+config.log
+config.status
